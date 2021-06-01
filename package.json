@@ -6,7 +6,6 @@
   "generator-videojs-plugin": {
     "version": "2.2.0"
   },
-  
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npm-run-all -p build:*",
@@ -37,13 +36,13 @@
     "videojs",
     "videojs-plugin"
   ],
-  "author": "mister-ben <git@misterben.me>",
+  "author": "TranscodeGroup",
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mister-ben/videojs-flvjs.git"
+    "url": "https://github.com/TranscodeGroup/videojs-flvjs.git"
   },
-  "bugs": "https://github.com/mister-ben/videojs-flvjs/issues",
+  "bugs": "https://github.com/TranscodeGroup/videojs-flvjs/issues",
   "license": "Apache-2.0",
   "browserify": {
     "transform": [
@@ -119,6 +118,6 @@
     "videojs-standard": "^4.0.0"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
