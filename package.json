@@ -1,11 +1,12 @@
 {
-  "name": "videojs-flvjs",
+  "name": "@transcodegroup/videojs-flvjs",
   "version": "0.2.0",
   "description": "Video.js tech for FLV playback in MSE with flv.js",
   "main": "es5/plugin.js",
   "generator-videojs-plugin": {
     "version": "2.2.0"
   },
+  
   "scripts": {
     "prebuild": "npm run clean",
     "build": "npm-run-all -p build:*",
@@ -116,5 +117,8 @@
     "sinon": "~1.14.0",
     "uglify-js": "^2.6.1",
     "videojs-standard": "^4.0.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }
