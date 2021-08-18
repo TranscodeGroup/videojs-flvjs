@@ -9,6 +9,12 @@ Check out the flv.js docs for details on its capabilities, browser support etc. 
 ## Installation
 
 ```sh
+ npm publish
+```
+
+## Installation
+
+```sh
 npm install --save videojs-flvjs
 ```
 
