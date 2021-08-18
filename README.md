@@ -6,7 +6,7 @@ Check out the flv.js docs for details on its capabilities, browser support etc. 
 
 [Example](https://mister-ben.github.io/videojs-flvjs/)
 
-## Installation
+## Publish
 
 ```sh
  npm publish
